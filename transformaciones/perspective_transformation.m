@@ -1,6 +1,7 @@
 % Leer imagen
 I = imread('../img/colibri.png');
 
+% Para una transformación proyectiva se necesitan al menos 4 puntos:
 % Puntos originales (esquinas)
 srcPoints = [
     1 1;
